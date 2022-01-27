@@ -1,3 +1,3 @@
 # Python 3
- Hello, World!
- Repository created in 01/27/2022
+Olá, mundo!
+Repositório criado em 27/01/2022
