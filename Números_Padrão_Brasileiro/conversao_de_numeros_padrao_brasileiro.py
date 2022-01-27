@@ -2,20 +2,20 @@
 # Fazendo o python interpretar números do padrão brasileiro, fazer operações com eles no padrão internacional [...]
 # e no final, responder com números no padrão brasileiro
 
-a = str(input('Me diga qualquer número, podendo ser inteiro ou decimal: '))
-b = str(input('Me diga outro número: '))
+num1 = str(input('Digite qualquer número, podendo ser inteiro ou decimal: '))
+num2 = str(input('Digite outro número: '))
 
 # Transformações de números de padrões brasileiros em padrões internacionais
-a = a.replace('.','').replace(',','.')
-a1 = float(a)
-b = b.replace('.','').replace(',','.')
-b1 = float(b)
+num1 = num1.replace('.','').replace(',','.')
+num1_int = float(num1)
+num2 = num2.replace('.','').replace(',','.')
+num2_int = float(num2)
 
 # Operações entre os dois números em padrão internacional
-soma = a1+b1
-sub = a1-b1
-multi = a1*b1
-div = a1/b1
+soma = num1_int + num2_int
+sub = num1_int + num2_int
+multi = num1_int * num2_int
+div = num1_int / num2_int
 
 # Transformando todos esses resultados no padrão brasileiro
 somabr = f'{soma:_.2f}'
