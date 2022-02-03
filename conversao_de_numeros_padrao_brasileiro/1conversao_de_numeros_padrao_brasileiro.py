@@ -13,7 +13,7 @@ num2_int = float(num2)
 
 # Operações entre os dois números em padrão internacional
 soma = num1_int + num2_int
-sub = num1_int + num2_int
+sub = num1_int - num2_int
 multi = num1_int * num2_int
 div = num1_int / num2_int
 
